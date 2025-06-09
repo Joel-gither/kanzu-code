@@ -1,5 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Pacific&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+SA+Hand:wght@400..700&family=Pacifico&display=swap" rel="stylesheet');
 @import "tailwindcss";
 @plugin "daisyui";
+
+@theme {
+  --font-edusahand: "Edu SA Hand", cursive; 
+}
+
 
  

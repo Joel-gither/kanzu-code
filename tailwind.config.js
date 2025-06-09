@@ -1,4 +1,5 @@
 // Example `tailwind.config.js` file
+
 import { coolGray, lightBlue, rose, fuchsia } from 'tailwindcss/colors';
 
 export const theme = {
@@ -20,6 +21,7 @@ export const theme = {
   fontFamily: {
     sans: ['Graphik', 'sans-serif'],
     serif: ['Merriweather', 'serif'],
+    edusahand: ['Edu SA Hand', 'cursive'],
   },
   extend: {
     spacing: {
@@ -36,5 +38,6 @@ export const variants = {
   extend: {
     borderColor: ['focus-visible'],
     opacity: ['disabled'],
-  }
+  },
+  plugins: [],
 };
