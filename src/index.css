@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import "tailwindcss";
+@plugin "daisyui";
+
+.hero{
+  background-image: url(src/assets/images/nn.jpg);
+  width: 100%;
+  height: 100vh;
+}
